@@ -1,3 +1,4 @@
+# randomly_generated_data.py
 # python script to generate random numbers and do basic analysis on them
 # the maximum number generated should be 100 as the analysis breaks the output into increments of 25
 
@@ -42,10 +43,10 @@ print("76-100:", sorted(fourth_twenty_five))
 print()
 
 # provide % of numbers within 25 point "buckets"
-q1 = round((len(first_twenty_five)/50)*100)
-q2 = round((len(second_twenty_five)/50)*100)
-q3 = round((len(third_twenty_five)/50)*100)
-q4 = round((len(fourth_twenty_five)/50)*100)
+q1 = round((len(first_twenty_five)/target_number)*100)
+q2 = round((len(second_twenty_five)/target_number)*100)
+q3 = round((len(third_twenty_five)/target_number)*100)
+q4 = round((len(fourth_twenty_five)/target_number)*100)
 
 print("Distribution of 50 randomly generated numbers by percentage per quarter")
 print("  0-25:", q1, "%")
