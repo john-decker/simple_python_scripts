@@ -2,7 +2,7 @@
 # python script to convert Arabic numbers to Roman numerals
 
 # eventually make this user input
-number = 1999
+number = 2257
 
 #initialize variables for year places
 thousands = 0
@@ -53,3 +53,4 @@ if (fives*5)+(ones*1) == 4:
 	
 
 print(number, "=", m+d+c+l+x+v+i)
+
